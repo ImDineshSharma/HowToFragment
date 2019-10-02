@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37474F"
+    >
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/topText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:textColor="#FFFFFF"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/topText"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/memeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bottomText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10sp"
+        android:background="#FFFF00"
+        android:padding="20sp"
+        android:text="@string/memee" />
+
+
+</RelativeLayout>
